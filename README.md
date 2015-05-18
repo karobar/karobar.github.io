@@ -1,3 +1,3 @@
 # karobar.github.io
 
-placehold
+A website for personal projects
