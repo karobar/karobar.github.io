@@ -25,9 +25,6 @@
 }
   
 .wrapper {
-  width: 150%;
-  /*transform: translate(-50%, -50%);*/
-  margin-left: 50%;
-  margin-right: -50%;
+  width: 100%;
 }
 
