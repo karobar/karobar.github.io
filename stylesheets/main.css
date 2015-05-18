@@ -12,6 +12,7 @@
 
 .detail-text p {
   margin: 10px 50px;
+  display: block;
 }
   
 .detail-text h2 {
