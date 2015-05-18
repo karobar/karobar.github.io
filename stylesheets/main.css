@@ -1,18 +1,23 @@
 .detail-wrapper {
   color: #fff;
   background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957);}
+  background-image: linear-gradient(120deg, #155799, #159957);
+}
 
 .detail-text {
   color: white;
-  margin-left: 10px;}
+  margin-left: 10px;
+}
   
 .detail-text h2 {
     color: white;
     font-size: 2em;
     line-height: 1.3em;
-    margin-bottom: 10px;}
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
   
 .wrapper {
-  width: 100%; }
+  width: 100%;
+}
 
