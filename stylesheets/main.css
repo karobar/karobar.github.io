@@ -39,3 +39,7 @@
   text-decoration: none;
 }
 
+.subtle-link:link {
+  color: #FFFFFF;
+}
+
