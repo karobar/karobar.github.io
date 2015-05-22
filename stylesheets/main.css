@@ -21,6 +21,7 @@
     line-height: 1.3em;
     margin-bottom: 10px;
     margin-left: 10px;
+    text-align: center;
 }
 
 .subsection-header {
@@ -36,22 +37,9 @@
 }
 
 .subtle-link {
-  text-decoration: none;
-}
-
-.subtle-link:link {
-    text-decoration: none;
-}
-
-.subtle-link:visited {
-    text-decoration: none;
-}
-
-.subtle-link:hover {
-    text-decoration: none;
-}
-
-.subtle-link:active {
-    text-decoration: none;
-}
+  text-decoration: none;}
+  .subtle-link:link {text-decoration: none;}
+  .subtle-link:visited {text-decoration: none;}
+  .subtle-link:hover {text-decoration: none;}
+  .subtle-link:active {text-decoration: none;}
 
