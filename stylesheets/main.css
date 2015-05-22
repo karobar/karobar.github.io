@@ -41,6 +41,18 @@
 }
 
 .subtle-link:link {
-  color: #FFFFFF;
+    text-decoration: none;
+}
+
+.subtle-link:visited {
+    text-decoration: none;
+}
+
+.subtle-link:hover {
+    text-decoration: none;
+}
+
+.subtle-link:active {
+    text-decoration: none;
 }
 
