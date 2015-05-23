@@ -43,7 +43,7 @@
   .subtle-link:hover {text-decoration: none; color: #54BDE8;}
   .subtle-link:active {text-decoration: none; color: #FFFFFF;}
   
-.subsection-header .subtle-link {
+.subsection-header a {
   text-decoration: none;}
   .subtle-link:link {text-decoration: none; color: #159957;}
   .subtle-link:visited {text-decoration: none; color: #159957;}
