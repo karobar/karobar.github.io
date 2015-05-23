@@ -43,10 +43,8 @@
   .subtle-link:hover {text-decoration: none; color: #54BDE8;}
   .subtle-link:active {text-decoration: none; color: #FFFFFF;}
   
-.subsection-header > a {
-  text-decoration: none;}
-  (.subsection-header > a):link {text-decoration: none; color: #159957;}
-  (.subsection-header > a):visited {text-decoration: none; color: #159957;}
-  (.subsection-header > a):hover {text-decoration: none; color: #1BE390;}
-  (.subsection-header > a):active {text-decoration: none; color: #159957;}
+(.subsection-header > a):link {text-decoration: none; color: #159957;}
+(.subsection-header > a):visited {text-decoration: none; color: #159957;}
+(.subsection-header > a):hover {text-decoration: none; color: #1BE390;}
+(.subsection-header > a):active {text-decoration: none; color: #159957;}
 
