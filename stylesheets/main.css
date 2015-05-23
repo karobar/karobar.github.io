@@ -38,8 +38,8 @@
 
 .subtle-link {
   text-decoration: none;}
-  .subtle-link:link {text-decoration: none;}
-  .subtle-link:visited {text-decoration: none;}
-  .subtle-link:hover {text-decoration: none;}
-  .subtle-link:active {text-decoration: none;}
+  .subtle-link:link {text-decoration: none; color: #FFFFFF;}
+  .subtle-link:visited {text-decoration: none; color: #FFFFFF;}
+  .subtle-link:hover {text-decoration: none; color: #FFFFFF;}
+  .subtle-link:active {text-decoration: none; color: #FFFFFF;}
 
