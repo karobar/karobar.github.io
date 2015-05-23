@@ -45,8 +45,8 @@
   
 .subsection-header > a {
   text-decoration: none;}
-  .subsection-header > a:link {text-decoration: none; color: #159957;}
-  .subsection-header > a:visited {text-decoration: none; color: #159957;}
-  .subsection-header > a:hover {text-decoration: none; color: #1DF79D;}
-  .subsection-header > a:active {text-decoration: none; color: #159957;}
+  (.subsection-header > a):link {text-decoration: none; color: #159957;}
+  (.subsection-header > a):visited {text-decoration: none; color: #159957;}
+  (.subsection-header > a):hover {text-decoration: none; color: #1DF79D;}
+  (.subsection-header > a):active {text-decoration: none; color: #159957;}
 
