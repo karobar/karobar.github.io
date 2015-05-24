@@ -25,6 +25,11 @@
     text-align: center;
 }
 
+.button-span {
+  margin-left:auto;
+  margin-right:auto;
+}
+
 .subsection-header {
    text-align: center;
 }
