@@ -42,6 +42,10 @@
     margin: 0 auto;
 }
 
+p {
+  text-align:center;
+}
+
 .subtle-link {
   text-decoration: none;}
   .subtle-link:link {text-decoration: none; color: #FFFFFF;}
