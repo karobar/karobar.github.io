@@ -26,8 +26,8 @@
 }
 
 .button-span {
-  display: inline-block;
-  float:center;
+  position:relative;
+  text-align: center;
 }
 
 .subsection-header {
