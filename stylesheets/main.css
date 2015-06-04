@@ -46,6 +46,10 @@ p {
   text-align:center;
 }
 
+html {
+  font-size: 12px;
+}
+
 .subtle-link {
   text-decoration: none;}
   .subtle-link:link {text-decoration: none; color: #FFFFFF;}
