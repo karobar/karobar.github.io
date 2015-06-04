@@ -46,6 +46,10 @@ p {
   text-align:center;
 }
 
+a {
+  text-color: #1DD4FB
+}
+
 .subtle-link {
   text-decoration: none;}
   .subtle-link:link {text-decoration: none; color: #FFFFFF;}
