@@ -4,23 +4,31 @@
     <meta charset="UTF-8">
     <title>Travis Pressler</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/tweaked-bootstrap.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/main.css" media="screen">
   </head>
+  <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('#header').load('header.html');
+    });
+  </script>
   <body>
-    <section class="page-header">
-      <h1 class="project-name">Travis Pressler</h1>
-      <h2 class="project-tagline">Résumé | <a href="https://github.com/karobar">GitHub</a>
-      <br />travisp471@gmail.com
-      </h2>
-    </section>
+    <div id="header"></div>
 
     <section class="main-content">
+    	<p>I like making stuff, and I'm looking for a group of people that are
+    	as passionate about what they create as I am.  </p>
+    	<h1 class="subsection-header">
+    		here's a selection of school projects
+        </h1>
+    	
+    	
         <h1 class="subsection-header">
 		<a id="check-out-some-of-my-recent-projects" 
 		   class="anchor" 
@@ -28,45 +36,83 @@
 		   aria-hidden="true">
 			<span class="octicon octicon-link"></span>
 		</a>
-		check out some of my recent personal projects
+		check out some of my recent hobby projects
 	</h1>
 
-<div class="wrapper detail-wrapper">
-	<span class="detail-text">
-		<h2>TwoDotsPlayer</h2>
-		<p>A command-line artificial intelligence algorithm for determining the best moves for the iOS and 
-		Android game TwoDots. Utilizes an iterative-deepening depth-first search strategy to optimize space
-		efficiency. Specify your TwoDots game configuration in a YAML file and the number of moves to look 
-		ahead, and this algorithm will output a score-maximizing move. 
-		</p>
-	</span>
-</div>
-<br />
-<div class="wrapper detail-wrapper">
-	<span class="detail-text">
-		<h2>DeckSim</h2>
-		<p>A single-page web application written in HTML/JavaScript/CSS, JQuery, Bootstrap, and Angular. 
-		All program data is defined in a JSON data file.</p>
-	</span>
-</div>
-<br />
-<div class="wrapper detail-wrapper">
-	<span class="detail-text">
-		<h2>Atlas Of India</h2>
-		<p>A shape grammar (or <i>place grammar</i>) interpreter which takes grammars specified in YAML data 
-		files as input, in order to generate a virtual space. The program is multi-screen, graphical, and 
-		handles user input. Also includes A* pathfinding and a recursive shadowcasting algorithm. 
-		</p>
-	</span>
-</div>
-<br />
-<div class="wrapper detail-wrapper">
-	<span class="detail-text">
-		<h2>Paintings &amp; Drawings</h2>
-		<p>Click or tap anywhere for a demo reel of my paintings and drawings.</p>
-	</span>
-</div>
-<br />
+	<div class="wrapper detail-wrapper">
+		<span class="detail-text">
+			<h2>TwoDotsPlayer</h2>
+			<p>A command-line artificial intelligence algorithm for determining the best moves for the 
+			iOS/Android game TwoDots. Utilizes a depth-first search strategy to 
+			optimize space efficiency. Specify your TwoDots game configuration in a YAML file and the 
+			number of moves to look ahead, and this algorithm will output a score-maximizing move. 
+			</p>
+		</span>
+		<div class="button-span">
+			<a class="btn btn-default" href="https://github.com/karobar/TwoDotsPlayer/tree/master/src/twodotsplayer">View Source</a>
+			<a class="btn btn-default" href="https://github.com/karobar/TwoDotsPlayer/raw/master/TwoDotsPlayer.jar" download="TwoDotsPlayer.jar">Download TwoDotsPlayer</a>
+			<a class="btn btn-default" href="https://github.com/karobar/TwoDotsPlayer/blob/master/README.md">View Instructions</a>
+		</div>
+		
+	</div>
+	<br />
+	<div class="wrapper detail-wrapper">
+		<span class="detail-text">
+			<h2>DeckSim</h2>
+			<p>A single-page web application written in HTML/JavaScript/CSS, jQuery, Bootstrap. All 
+			program data is defined in a JSON data file.  I started this project in part
+			because I wanted to better understand Bootstrap and jQuery.  If you're viewing the demo, click 
+			the 'Deal Starting Hands' to view the data loaded by the data file.</p>
+		</span>
+		<div class="button-span">
+			<a class="btn btn-default" href="https://github.com/karobar/DeckSim/blob/master/public_html/index.html">View HTML</a>
+			<a class="btn btn-default" href="https://github.com/karobar/DeckSim/blob/master/public_html/js/main.js">View JavaScript</a>
+			<a class="btn btn-default" href="http://karobar.github.io/DeckSim/index.html">View Demo</a>
+		</div>
+	</div>
+	<br />
+	<div class="wrapper detail-wrapper">
+		<span class="detail-text">
+			<h2>Atlas Of India</h2>
+			<p>A shape grammar (or <i>place grammar</i>) interpreter which takes grammars specified in YAML data 
+			files as input, in order to generate a virtual space. The program is multi-screen, graphical, 
+			and handles user input. Also includes A* pathfinding and a recursive shadowcasting algorithm. 
+			</p>
+		</span>
+		<div class="button-span">
+			<a class="btn btn-default" href="https://github.com/karobar/Atlas-Of-India/tree/master/src">View Source</a>
+		</div>
+		
+	</div>
+	<br />
+	<div class="wrapper detail-wrapper">
+		<span class="detail-text">
+			<h2>Paintings and Drawings</h2>
+			<p>I've drawn for a long time as a hobby, and recently I've been improving my technical 
+			ability, especially with the human form and face. These illustrations were made using a variety of 
+			media, including Adobe Photoshop CS5 and CS6.  You can scroll with the left and right 
+			controls.</p>
+		</span>
+		<div class="button-span">
+			<a class="btn btn-default" href="http://karobar.github.io/illustrations.html">View Site</a>
+		</div>
+	</div>
+	<br />
+	
+	<div class="wrapper detail-wrapper">
+		<span class="detail-text">
+			<h2>This Site</h2>
+			<p>This site (along with my accompanying illustrations page) is written with custom CSS over 
+			a GitHub Pages template. I also used tweaked Bootstrap, and the full-width header is loaded 
+			with jQuery.</p>
+		</span>
+		<div class="button-span">
+			<a class="btn btn-default" href="https://github.com/karobar/karobar.github.io/blob/master/index.html">Main HTML</a>
+			<a class="btn btn-default" href="https://github.com/karobar/karobar.github.io/blob/master/illustrations.html">Illustrations HTML</a>
+			<a class="btn btn-default" href="https://github.com/karobar/karobar.github.io/blob/master/stylesheets/main.css">Custom CSS</a>
+		</div>
+	</div>
+	<br />
     </section>
     
   </body>

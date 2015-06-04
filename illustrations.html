@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Travis Pressler</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">-->
     <link rel="stylesheet" type="text/css" href="stylesheets/tweaked-bootstrap.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -16,20 +15,15 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function() {
-      console.log('jQuery execution');
-      $('#header').('header.html');
+      $('#header').load('header.html');
     });
   </script>
-    
   <body>
     <div id="header"></div>
-    <!--<section class="page-header">
-      <h1 class="project-name">Travis Pressler</h1>
-      <h2 class="project-tagline">Paintings &amp; Drawings</h2>
-    </section>-->
-    
-    <!--<iframe src="header.html" />-->
-    <br />
+    <h1 class="subsection-header">
+      <a class="subtle-link" href="http://karobar.github.io">
+        [return to main site]</a>
+    </h1>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
