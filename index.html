@@ -22,14 +22,53 @@
     <div id="header"></div>
 
     <section class="main-content">
-    	<p>I like making stuff, and I'm looking for a group of people that are
-    	as passionate about what they create as I am. </p>
+    	<!--<p>I like making stuff, and I'm looking for a group of people that are
+    	as passionate about what they create as I am. 
+    	</p>-->
+    	
     	<h1 class="subsection-header">
-    		here's a selection of school projects
+    		here's a selection of some previous projects
         </h1>
     	
     	<div class="container-fluid">
-		<div class="well">I'm in a well!</div>
+  		<div class="row">
+		    <div class="col-md-4">
+		    	<div class="well">
+		    		<h3>SQL</h3>
+		    		An implentation of Dijkstra's pathfinding algorithm in SQL
+		    		<a href="https://github.com/karobar/SQL-Stuff/blob/master/dijkstra.sql">here</a>.
+		    		I've provided some more examples <a href="https://github.com/karobar/SQL-Stuff">here</a>, too.
+		    	</div>
+		    </div>
+		    <div class="col-md-4">
+		    	<div class="well">
+		    		<h3>Interpreter</h3>
+		    		An interpreter for a subset of Scheme, written in Scheme. The code can be found
+		    		<a href="https://github.com/karobar/Scheme-Examples/blob/master/interpreter.scm">
+		    		here</a>. Five evaluation strategies are provided.
+		    	</div>
+		    </div>
+		    <div class="col-md-4">
+		    	<div class="well">
+		    		<h3>Data Mining</h3>
+		    		I predicted seminal fertility with 85% accuracy using a neural network, results and 
+		    		instructions on how to run can be found
+		    		<a href="https://github.com/karobar/Data-Mining-Examples/blob/master/Assignment5.pdf">
+		    		here</a>.
+		    	</div>
+		    </div>
+	  	</div>
+		<div class="row">
+		    <div class="col-md-4">
+		    	<div class="well">
+		    		<h3>Algorithm Design</h3>
+		    		In-depth time complexity analysis of an algorithm designed to multiply base- 
+		    		2<sup>32</sup> integers provided here.  
+		    	</div>
+		    </div>
+		    <div class="col-md-4"><div class="well">I'm in a well!</div></div>
+		    <div class="col-md-4"><div class="well">I'm in a well!</div></div>
+	  	</div>
 	</div>
     	
         <h1 class="subsection-header">
@@ -79,9 +118,14 @@
 	<div class="wrapper detail-wrapper">
 		<span class="detail-text">
 			<h2>Atlas Of India</h2>
-			<p>A shape grammar (or <i>place grammar</i>) interpreter which takes grammars specified in YAML data 
-			files as input, in order to generate a virtual space. The program is multi-screen, graphical, 
-			and handles user input. Also includes A* pathfinding and a recursive shadowcasting algorithm. 
+			<p>A <i>shape grammar</i> interpreter which takes grammars specified in YAML data 
+			files as input, in order to generate a virtual space. Shape grammars can be used for 
+			<i>procedural design</i>. For some basic information on and examples pertaining to shape 
+			grammars, check out <a href="https://www.andrew.cmu.edu/course/48-747/subFrames/lecture/OnShapeGrammars.pdf">
+			these slides</a>, courtesy of Carnegie Mellon University. The program displays these grammars
+			using Swing (a release on a Java 
+			OpenGL binding is near release) and handles user input. Also includes A* pathfinding and a 
+			recursive shadowcasting algorithm. 
 			</p>
 		</span>
 		<div class="button-span">
@@ -109,7 +153,8 @@
 			<h2>This Site</h2>
 			<p>This site (along with my accompanying illustrations page) is written with custom CSS over 
 			a GitHub Pages template. I also used tweaked Bootstrap, and the full-width header is loaded 
-			with jQuery.</p>
+			with jQuery. Every design decision was made with mobile platforms in mind, and it looks great
+			on the platforms I tested on!</p>
 		</span>
 		<div class="button-span">
 			<a class="btn btn-default" href="https://github.com/karobar/karobar.github.io/blob/master/index.html">Main HTML</a>

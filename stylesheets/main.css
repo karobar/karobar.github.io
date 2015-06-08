@@ -6,6 +6,10 @@
   padding: 20px;
 }
 
+.well {
+  text-align:center;
+}
+
 .detail-text {
   color: white;
   text-align:center;
@@ -44,6 +48,10 @@
 
 p {
   text-align:center;
+}
+
+a {
+  color: #1DD4FB
 }
 
 .subtle-link {
